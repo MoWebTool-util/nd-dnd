@@ -1,6 +1,6 @@
 {
   "name": "nd-dnd",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "drag and drop",
   "keywords": [],
   "homepage": "https://github.com/ndfront/nd-dnd",
@@ -20,7 +20,6 @@
     "grunt": "^0.4.5",
     "grunt-contrib-jshint": "^0.10.0",
     "grunt-exec": "^0.4.6",
-    "grunt-spm-server": "^0.0.4",
     "load-grunt-tasks": "^0.6.0"
   },
   "spm": {
