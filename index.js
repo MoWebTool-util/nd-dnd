@@ -371,7 +371,7 @@ function executeRevert() {
 function handleEvent(event) {
   switch (event.type) {
     case 'mousedown':
-      if (event.which === 1) {
+      if (!proxy && event.which === 1) {
 
         // 检测并执行预拖放
         executeDragPre({
