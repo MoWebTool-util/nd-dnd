@@ -1,18 +1,20 @@
 # nd-dnd
 
-[![spm version](http://spmjs.io/badge/nd-dnd)](http://spmjs.io/package/nd-dnd)
+[![Travis](https://img.shields.io/travis/ndfront/nd-dnd.svg?style=flat-square)](https://github.com/ndfront/nd-dnd)
+[![Coveralls](https://img.shields.io/coveralls/ndfront/nd-dnd.svg?style=flat-square)](https://github.com/ndfront/nd-dnd)
+[![NPM version](https://img.shields.io/npm/v/nd-dnd.svg?style=flat-square)](https://npmjs.org/package/nd-dnd)
 
-> drag and drop。fork 自 [arale-dnd](https://github.com/aralejs/dnd)
+> drag and sort
 
 ## 安装
 
-```
-$ spm install nd-dnd --save
+```bash
+$ npm install nd-dnd --save
 ```
 
 ## 使用
 
 ```js
-var Dnd = require('nd-dnd');
-// use Dnd
+var DnD = require('nd-dnd');
+// use dnd
 ```

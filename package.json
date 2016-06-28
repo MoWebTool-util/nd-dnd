@@ -1,36 +1,90 @@
 {
-  "name": "nd-dnd",
-  "version": "0.0.0",
-  "description": "drag and drop",
-  "keywords": [],
-  "homepage": "https://github.com/ndfront/nd-dnd",
-  "author": {
-    "name": "crossjs",
-    "email": "liwenfu@crossjs.com"
+  "_args": [
+    [
+      "nd-dnd@^3.0.1",
+      "C:\\works\\admin\\branch\\src\\main\\js"
+    ]
+  ],
+  "_cnpm_publish_time": 1456601423176,
+  "_from": "nd-dnd@>=3.0.1 <4.0.0",
+  "_id": "nd-dnd@3.0.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/nd-dnd",
+  "_nodeVersion": "5.6.0",
+  "_npmOperationalInternal": {
+    "host": "packages-9-west.internal.npmjs.com",
+    "tmp": "tmp/nd-dnd-3.0.1.tgz_1456601420511_0.7303295535966754"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ndfront/nd-dnd.git"
+  "_npmUser": {
+    "email": "liwenfu@crossjs.com",
+    "name": "crossjs"
+  },
+  "_npmVersion": "3.6.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "nd-dnd",
+    "raw": "nd-dnd@^3.0.1",
+    "rawSpec": "^3.0.1",
+    "scope": null,
+    "spec": ">=3.0.1 <4.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/",
+    "/nd-upload"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/nd-dnd/download/nd-dnd-3.0.1.tgz",
+  "_shasum": "af506b569d21023d2f09cb1bf78a064046ff2907",
+  "_shrinkwrap": null,
+  "_spec": "nd-dnd@^3.0.1",
+  "_where": "C:\\works\\admin\\branch\\src\\main\\js",
+  "author": {
+    "email": "liwenfu@crossjs.com",
+    "name": "crossjs"
   },
   "bugs": {
     "url": "https://github.com/ndfront/nd-dnd/issues"
   },
-  "licenses": "MIT",
-  "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-jshint": "^0.10.0",
-    "grunt-exec": "^0.4.6",
-    "grunt-spm-server": "^0.0.4",
-    "load-grunt-tasks": "^0.6.0"
+  "dependencies": {
+    "nd-base": "^3.0.1",
+    "nd-jquery": "^2.2.1"
   },
-  "spm": {
-    "main": "index.js",
-    "dependencies": {
-      "jquery": "1.11.1",
-      "nd-base": "0.0.1"
-    },
-    "devDependencies": {
-      "expect.js": "0.3.1"
+  "description": "drag and sort",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "isparta": "^4.0.0",
+    "mocha": "^2.4.5"
+  },
+  "directories": {},
+  "dist": {
+    "noattachment": false,
+    "shasum": "af506b569d21023d2f09cb1bf78a064046ff2907",
+    "size": 5300,
+    "tarball": "http://registry.npm.taobao.org/nd-dnd/download/nd-dnd-3.0.1.tgz"
+  },
+  "gitHead": "584e2eac1243f5ff9f5baa38e817a82469c96b96",
+  "homepage": "https://github.com/ndfront/nd-dnd",
+  "keywords": [],
+  "licenses": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "crossjs",
+      "email": "one@ffully.com"
     }
-  }
+  ],
+  "name": "nd-dnd",
+  "optionalDependencies": {},
+  "publish_time": 1456601423176,
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndfront/nd-dnd.git"
+  },
+  "scripts": {
+    "coverage": "node_modules/isparta/bin/isparta cover node_modules/mocha/bin/_mocha -- --bail --timeout 200 --slow 99999 -R dot tests/**/*-spec.js",
+    "test": "mocha --bail --timeout 200 --slow 99999 tests/**/*-spec.js"
+  },
+  "version": "3.0.1"
 }
